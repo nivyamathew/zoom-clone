@@ -40,6 +40,8 @@ const Sidebar = () => {
         })}
       </div>
     </section>
+    // side bar
+    
   );
 };
 

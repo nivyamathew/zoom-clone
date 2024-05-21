@@ -20,9 +20,9 @@ const Navbar = () => {
         </p>
       </Link>
       <div className="flex-between gap-5">
-        <SignedIn>
-          <UserButton />
-        </SignedIn>
+        {/* <SignedIn>
+          <UserButton /> */}
+        {/* </SignedIn> */}
         <MobileNav />
       </div>
     </nav>

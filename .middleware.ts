@@ -6,7 +6,7 @@ const protectedRoutes = createRouteMatcher([
   "/previous",
   "/recordings",
   "/personal-room",
-  "/meeting(.*)",
+  // "/meeting(.*)",
 ]);
 
 export default clerkMiddleware((auth, req) => {
